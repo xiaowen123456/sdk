@@ -1,0 +1,41 @@
+{
+    "optserver": [
+        {
+            "weight": 100,
+            "url": "http://game7.synology.me:8088"
+        },
+        {
+            "weight": 100,
+            "url": "http://game7.synology.me:8088"
+        }
+    ],
+    "ipserver": [
+        {
+            "weight": 100,
+            "url": "http://go2s.co:18909/g"
+        },
+        {
+            "weight": 100,
+            "url": "http://go2s.co:18909/g"
+        }
+    ],
+    "update": {
+        "start": {
+            "time": 360
+        },
+        "net": {
+            "ctrl": 1,
+            "time": 3600
+        }
+    },
+    "debug": 1,
+    "ad": {
+        "ver": "105"
+    },
+    "ad.cn": {
+        "ver": "105"
+    },
+    "ps": {
+        "ver": "108"
+    }
+}
