@@ -1,0 +1,173 @@
+{
+    "nodes": [
+        "win",
+        "fail",
+        "pause",
+        "icon",
+        "launcher",
+        "exit",
+        "banner"
+    ],
+    "launcher": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 1,
+                "weight": 50
+            },
+            {
+                "id": 2,
+                "weight": 100
+            },
+            {
+                "id": 3,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1095,
+            "weight": 50
+        },
+        "ads": {
+            "weight": 10
+        }
+    },
+    "icon": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 1301,
+                "weight": 100
+            },
+            {
+                "id": 1302,
+                "weight": 30
+            }
+        ],
+        "group": {
+            "id": 1096,
+            "weight": 100
+        }
+    },
+    "pause": {
+        "ctrl": 3,
+        "show": [
+            {
+                "id": 11,
+                "weight": 100
+            },
+            {
+                "id": 21,
+                "weight": 100
+            },
+            {
+                "id": 32,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1093,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "fail": {
+        "ctrl": 4,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            },
+            {
+                "id": 1002,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1094,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "win": {
+        "ctrl": 5,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            },
+            {
+                "id": 1002,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1096,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "exit": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 11,
+                "weight": 10
+            },
+            {
+                "id": 21,
+                "weight": 10
+            },
+            {
+                "id": 32,
+                "weight": 10
+            }
+        ],
+        "group": {
+            "id": 1097,
+            "weight": 20
+        },
+        "ads": {
+            "weight": 80
+        }
+    },
+    "banner": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 11,
+                "weight": 50
+            },
+            {
+                "id": 21,
+                "weight": 100
+            },
+            {
+                "id": 32,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1094,
+            "weight": 5
+        },
+        "ads": {
+            "weight": 40
+        }
+    },
+    "offerwall": [
+        1094,
+        1096
+    ],
+    "more": [
+        1097,
+        1095,
+        1096
+    ]
+}

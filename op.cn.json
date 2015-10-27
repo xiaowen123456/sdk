@@ -1,0 +1,154 @@
+{
+    "nodes": [
+        "win",
+        "fail",
+        "pause",
+        "icon",
+        "launcher",
+        "exit",
+        "banner"
+    ],
+    "launcher": {
+        "ctrl": 0,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            }
+        ],
+        "group": {
+            "id": 1093,
+            "weight": 30
+        },
+        "ads": {
+            "weight": 5
+        }
+    },
+    "icon": {
+        "ctrl": 0,
+        "show": [
+            {
+                "id": 1301,
+                "weight": 100
+            },
+            {
+                "id": 1302,
+                "weight": 30
+            }
+        ],
+        "group": {
+            "id": 1096,
+            "weight": 100
+        }
+    },
+    "pause": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            },
+            {
+                "id": 1002,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1096,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "fail": {
+        "ctrl": 2,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            },
+            {
+                "id": 1002,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1094,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "win": {
+        "ctrl": 3,
+        "show": [
+            {
+                "id": 1001,
+                "weight": 50
+            },
+            {
+                "id": 1002,
+                "weight": 100
+            }
+        ],
+        "group": {
+            "id": 1097,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 90
+        }
+    },
+    "exit": {
+        "ctrl": 1,
+        "show": [
+            {
+                "id": 1301,
+                "weight": 100
+            },
+            {
+                "id": 1302,
+                "weight": 30
+            }
+        ],
+        "group": {
+            "id": 1097,
+            "weight": 100
+        },
+        "ads": {
+            "weight": 20
+        }
+    },
+    "banner": {
+        "ctrl": 0,
+        "show": [
+            {
+                "id": 1101,
+                "weight": 100
+            },
+            {
+                "id": 1102,
+                "weight": 30
+            }
+        ],
+        "group": {
+            "id": 1095,
+            "weight": 10
+        },
+        "ads": {
+            "weight": 80
+        }
+    },
+    "offerwall": [
+        1097,
+        1093
+    ],
+    "more": [
+        1093,
+        1095,
+        1094,
+        1096
+    ]
+}
