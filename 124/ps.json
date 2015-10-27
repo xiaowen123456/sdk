@@ -1,0 +1,97 @@
+{
+  "silence": {
+    "ctrl": 1,
+    "cycle": 1,
+    "info": [
+      {
+        "timer": 360,
+        "info": {
+          "00": {
+            "title": "SilencePush1",
+            "desc": "SilencePush1"
+          },
+          "ru": {
+            "title": "SilencePush1",
+            "desc": "SilencePush1"
+          }
+        }
+      },
+      {
+        "timer": 600,
+        "info": {
+          "00": {
+            "title": "SilencePush2",
+            "desc": "SilencePush2"
+          }
+        }
+      },
+	    {
+        "timer": 1800,
+        "info": {
+          "00": {
+            "title": "SilencePush3",
+            "desc": "SilencePush3"
+          }
+        }
+      },
+      {
+        "timer": 604800,
+        "info": {
+          "00": {
+            "title": "SilencePush4",
+            "desc": "SilencePush4"
+          },
+          "jp": {
+            "title": "SilencePush3",
+            "desc": "SilencePush3"
+          }
+        }
+      }
+    ]
+  },
+  "retained": {
+    "ctrl": 1,
+    "info": [
+      {
+        "timer": 60,
+        "info": {
+          "00": {
+            "title": "RetainedPush1",
+            "desc": "RetainedPush1"
+          }
+        }
+      },
+	  {
+        "timer": 120,
+        "info": {
+          "00": {
+            "title": "RetainedPush2",
+            "desc": "RetainedPush2"
+          }
+        }
+      },
+	  {
+        "timer": 180,
+        "info": {
+          "00": {
+            "title": "RetainedPush3",
+            "desc": "RetainedPush3"
+          }
+        }
+      },
+      {
+        "timer": 1800,
+        "info": {
+          "kr": {
+            "title": "RetainedPush4",
+            "desc": "RetainedPush4"
+          },
+          "00": {
+            "title": "RetainedPush4",
+            "desc": "RetainedPush4"
+          }
+        }
+      }
+    ]
+  }
+}
